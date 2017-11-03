@@ -15,12 +15,15 @@ def main():
         len_of_data = len(input_datas)
     print("Selected Length is ", len_of_data)
 
+    '''
+    # CNN Prediction Part
     with tf.Session() as sess:
         mainCNN = model.CNN(sess,input_size=7,output_size=45,name="mainCNN")
-        tf.global_variables_initializer().run()
 
+        tf.global_variables_initializer().run()
+        
         for epoch in range(len_of_data):
-            if epoch < 600:
+            if epoch < len_of_data-200: # Learning Part
                 i_data = np.array(input_datas[epoch])
                 i_data = i_data.reshape(-1,7,7,1)
                 o_data = np.array(output_datas[epoch])
@@ -29,8 +32,8 @@ def main():
                 #print("OUTPUT : " , o_data)
                 #print("---------------------------------")
                 loss,_ = mainCNN.update(i_data,o_data)
-                print("Epoch : " , epoch , " / Loss : " , loss)
-            else :
+                print("CNN Epoch : " , epoch , " / Loss : " , loss)
+            else : # Testing Part
                 i_data = np.array(input_datas[epoch])
                 i_data = i_data.reshape(-1, 7, 7, 1)
                 o_data = np.array(output_datas[epoch])
@@ -41,6 +44,35 @@ def main():
                     for _ in range(7):
                         max_val = num.argmax()
                         print(max_val+1)
+                        num[max_val] = -999
+                print("-------------------------------------")
+    '''
+
+    # RNN Prediction Part
+    with tf.Session() as sess:
+        mainRNN = model.RNN(sess,n_input=7,n_step=7,n_output=45,name="mainRNN")
+        tf.global_variables_initializer().run()
+
+        for epoch in range(len_of_data):
+            if epoch < len_of_data-200: # Learning Part
+                i_data = np.array(input_datas[epoch])
+                i_data = i_data.reshape(-1, 7, 7)
+                o_data = np.array(output_datas[epoch])
+                o_data = o_data.reshape(-1, 45)
+                loss, _ = mainRNN.update(i_data, o_data)
+                print("RNN Epoch : ", epoch, " / Loss : ", loss)
+
+            else: # Testing Part
+                i_data = np.array(input_datas[epoch])
+                i_data = i_data.reshape(-1, 7, 7)
+                o_data = np.array(output_datas[epoch])
+                o_data = o_data.reshape(-1, 45)
+                pred = mainRNN.predict(i_data)
+                # print(pred)
+                for num in pred:
+                    for _ in range(7):
+                        max_val = num.argmax()
+                        print(max_val + 1)
                         num[max_val] = -999
                 print("-------------------------------------")
 

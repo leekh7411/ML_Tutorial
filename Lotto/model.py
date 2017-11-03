@@ -81,3 +81,48 @@ class CNN:
 
     def update(self,x,y):
         return self.session.run([self._loss,self._train],feed_dict={self._X:x,self._Y:y,self._keep_prob:0.7})
+
+
+class RNN:
+    def __init__(self, session, n_input,n_step, n_output, name="main"):
+        self.session = session
+        self._n_input = n_input
+        self._n_output = n_output
+        self._n_step = n_step
+        self.net_name = name
+        self._n_hidden = 256
+        self._build_network()
+
+    def _build_network(self, h_size=10, l_rate=1e-1):
+        # with tf.variable_scope(self.net_name):
+        self._X = tf.placeholder(tf.float32, [None, self._n_step, self._n_input], name="input_x")
+        self._Y = tf.placeholder(tf.float32, [None, self._n_output],name="output_y")
+        # First Layer Of Weight
+        W = tf.get_variable("W", shape=[self._n_hidden,self._n_output],
+                             initializer=tf.contrib.layers.xavier_initializer())
+
+        b = tf.get_variable("b", shape=[self._n_output],
+                            initializer=tf.contrib.layers.xavier_initializer())
+
+        # init RNN cell
+        cell = tf.nn.rnn_cell.BasicLSTMCell(self._n_hidden)
+
+        # Simpled RNN using tensorflow's nn.dynamic_rnn()
+        outputs, states = tf.nn.dynamic_rnn(cell,self._X,dtype=tf.float32)
+
+        outputs = tf.transpose(outputs,[1,0,2])
+        outputs = outputs[-1]
+        self._model = tf.matmul(outputs,W) + b
+        self._cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=self._model,labels=self._Y))
+        self._train = tf.train.AdamOptimizer(learning_rate=l_rate).minimize(self._cost)
+
+
+    def predict(self, x):
+        # x = np.reshape(state,[None,7,7,1])
+        return self.session.run(self._model, feed_dict={self._X: x})
+
+    def update(self, x, y):
+        return self.session.run([self._cost, self._train], feed_dict={self._X: x, self._Y: y})
+
+
+

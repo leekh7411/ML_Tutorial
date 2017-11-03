@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24b172d2-fcca-408f-8989-f4bed1eec28f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lotto/agent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lotto/lotto_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lotto/lotto_datas.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lotto/model.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PathFinder/__init__.py" afterPath="$PROJECT_DIR$/Lotto/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials" afterPath="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lotto/agent.py" afterPath="$PROJECT_DIR$/Lotto/agent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lotto/model.py" afterPath="$PROJECT_DIR$/Lotto/model.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,23 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="agent.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="agent.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lotto/agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lotto/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1476">
-              <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+            <state relative-caret-position="-102">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -49,7 +33,7 @@
       <file leaf-file-name="01 - MNIST.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/10 - RNN/01 - MNIST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-756">
+            <state relative-caret-position="-139">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -172,45 +156,6 @@
             <path>
               <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-              <item name="Golbin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-              <item name="Golbin" type="462c0819:PsiDirectoryNode" />
-              <item name="original_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-              <item name="Golbin" type="462c0819:PsiDirectoryNode" />
-              <item name="original_code" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow-Tutorials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-              <item name="Golbin" type="462c0819:PsiDirectoryNode" />
-              <item name="original_code" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow-Tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="07 - CNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-              <item name="Golbin" type="462c0819:PsiDirectoryNode" />
-              <item name="original_code" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow-Tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="10 - RNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-              <item name="GYM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
@@ -365,10 +310,10 @@
     <frame x="290" y="16" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20053908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1703504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18404908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -729,7 +674,7 @@
         <state relative-caret-position="410">
           <caret line="96" column="63" lean-forward="false" selection-start-line="96" selection-start-column="63" selection-end-line="96" selection-end-column="63" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -818,16 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lotto/agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GYM/06_CartPole_DQN_2015.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
@@ -840,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/10 - RNN/01 - MNIST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
+        <state relative-caret-position="-139">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -848,8 +783,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lotto/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+        <state relative-caret-position="622">
+          <caret line="124" column="92" lean-forward="false" selection-start-line="124" selection-start-column="92" selection-end-line="124" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lotto/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
