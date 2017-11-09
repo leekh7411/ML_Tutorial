@@ -87,12 +87,12 @@ checkpoint_dir = "cps/"
 
 ckpt = tf.train.get_checkpoint_state(checkpoint_dir)
 if ckpt and ckpt.model_checkpoint_path:
-    print 'load learning'
+    print ('load learning')
     saver.restore(sess, ckpt.model_checkpoint_path)
 
 else:
-    print 'fail load learning'
-    print 'you have to run traning.py'
+    print ('fail load learning')
+    print ('you have to run traning.py')
     exit(1)
 
 for cropped_width in range(50, 1000, 20):
@@ -159,18 +159,18 @@ for cropped_width in range(50, 1000, 20):
 
                 feed = gray.flatten() / 255.0
 
-                print "Prediction for ", (shift_x, shift_y, cropped_width)
-                print "Pos"
-                print top_left
-                print bottom_right
-                print actual_w_h
-                print " "
+                print ("Prediction for ", (shift_x, shift_y, cropped_width))
+                print ("Pos")
+                print (top_left)
+                print (bottom_right)
+                print (actual_w_h)
+                print (" ")
 
 
                 prediction = [tf.reduce_max(activation), tf.argmax(activation, 1)[0]]
                 pred = sess.run(prediction, feed_dict={x: [feed]})
-                print 'the number is ' + str(pred[1])
-                print str(pred[0] * 100) + '%'
+                print ('the number is ' + str(pred[1]))
+                print (str(pred[0] * 100) + '%')
 
                 cv2.imwrite("pro-img/" + str(shift_x) + "_" + str(shift_y) + " : " + str(pred[1]) + "_" + str(pred[0] * 100)+"%.png", gray)
 
@@ -199,4 +199,4 @@ for cropped_width in range(50, 1000, 20):
 
 cv2.imwrite("pro-img/digitized_image.png", color_complete)
 saver.save(sess, checkpoint_dir + 'model.ckpt')
-print 'finish the test'
+print ('finish the test')

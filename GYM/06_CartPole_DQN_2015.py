@@ -30,6 +30,7 @@ def bot_play(mainDQN):
         env.render()
         a = np.argmax(mainDQN.predict(s))
         s, reward, done, _ = env.step(a)
+
         reward_sum += reward
         if done:
             print("Total Score : {}".format(reward_sum))
@@ -121,7 +122,7 @@ def main():
                     minibatch = random.sample(replay_buffer,10)
                     loss,_ = replay_train(mainDQN,targetDQN,minibatch)
                 print("Loss : ", loss)
-                sess.run(copy_ops)
+
 
 
         bot_play(mainDQN)
