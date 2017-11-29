@@ -1,281 +1,99 @@
 import numpy as np
 import random
-class TicTacToe:
+class TicTacToeSingle:
     def __init__(self):
-        self._width = 3
-        self._height = 3
-        self._A =  1 # turn True
-        self._B = -1 # turn False
-        self._score_A = 0
-        self._score_B = 0
-        self._board = np.zeros((self._width,self._height))
-        self._VERTICAL = 0
-        self._HORIZONTAL = 1
-        self._DIAGONAL_UD = 2
-        self._DIAGONAL_DU = 3
-        self._turn = True
-        self._GAME_OVER = False
-        self._board_count = self._board.size
-        self._IsDraw = False
-        self._IsPrint = False
-        self._location_board = self._set_location_board()
-        self._location_table = [11,12,13,21,22,23,31,32,33]
+        self.Turn = 1
+        self.PlayerA = 1
+        self.PlayerB = -1
+        self.Winner = 0
+        self.GameOver = False
+        self.Draw = 0
+        self.Board = np.zeros(9)
+        self.WinCase = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
+        self.ActionBoard = [[0,0],[0,1],[0,2],[1,0],[1,1],[1,2],[2,0],[2,1],[2,2]]
 
-    def _reset(self):
-        self._score_A = 0
-        self._score_B = 0
-        self._board = np.zeros((self._width, self._height))
-        self._turn = True
-        self._GAME_OVER = False
-        self._board_count = self._board.size
-        self._IsDraw = False
-        return self._board
+    def __reset__(self):
+        self.Turn = 1
+        self.PlayerA = 1
+        self.PlayerB = -1
+        self.Winner = 0
+        self.GameOver = False
+        self.Board = np.zeros(9)
+    def __checkWinner(self):
+        for i in range(self.WinCase.__len__()):
+            count = 0
+            for j in range(self.WinCase[i].__len__()):
+                if self.Board[self.WinCase[i][j]] == 1:
+                    count += 1
+            if count == 3 :
+                if self.Turn == self.PlayerA:
+                    print("--------- PlayerA Win! ---------")
+                elif self.Turn == self.PlayerB:
+                    print("--------- PlayerB Win! ---------")
+                return True
 
-    def _get_location(self,action):
-        return self._location_table[action]
+        return False
 
-    def _get_sample_action(self):
-        rand_list = []
-        for _w in range(3):
-            for _h in range(3):
-                if self._board[_w,_h] == 0 :
-                    rand_list.append(self._location_board[_w,_h])
-
-        if len(rand_list) > 0 :
-            return random.choice(rand_list)
-        else :
-            return 0 # No more space
-
-    def _get_GameOver(self):
-        return self._GAME_OVER
-
-    def _get_PlayerTurn(self):
-        return self._turn
-
-    def _get_observation_space(self):
-        return self._board_count
-
-    def _get_action_spcae(self):
-        return self._board_count
-
-    def _get_A(self):
-        return self._A
-
-    def _get_B(self):
-        return self._B
-
-    def _is_draw(self):
-        return self._IsDraw
-
-    def _step(self,action):
-        _h = action % 10
-        _w = int((action - _h) / 10)
-
-        _w = _w - 1
-        _h = _h - 1
-
-        result = True
-        if self._turn:
-            result = self._game_update(self._A, _w, _h)
-        else:
-            result = self._game_update(self._B, _w, _h)
-
-        if result:
-            self._turn = not self._turn
-
-        if self._board_count == 0 and (not self._GAME_OVER):
-            self._GAME_OVER = True
-            self._IsDraw = True
-
-        next_player = self._turn
-        done = self._GAME_OVER
-        reward = 0
-        if done :
-            if self._IsDraw:
-                reward = 0
-            elif not self._turn: # End game at turn B --> A win
-                reward = self._A
-            else: # End game at turn A --> B win
-                reward = self._B
-
-        #self._print_board()
-
-        return self._board,self._turn,reward, done
-
-    def _start_game(self):
-        while not self._GAME_OVER:
-            input_msg = ''
-            if self._IsPrint :
-                print("======================================================")
-                print("Board Size : ", self._board_count)
-                self._print_board()
-
-                if self._turn:
-                    print("> Game Turn : Player A")
-                else:
-                    print("> Game Turn : Player B")
-                input_msg = "next_location : "
-
-            # prompt input case..
-
-
-            wh = input(input_msg)
-            wh = int(wh)
-            _h = wh % 10
-            _w = int((wh - _h)/10)
-
-            _w = _w - 1
-            _h = _h - 1
-            if self._IsPrint:
-                print(">>> _w : ", _w, " / _h : ", _h)
-
-
-            result = True
-            if self._turn:
-                result = self._game_update(self._A,_w,_h)
-            else:
-                result = self._game_update(self._B,_w,_h)
-
-            if result:
-                self._turn = not self._turn
-
-            if self._board_count == 0 and (not self._GAME_OVER):
-                self._GAME_OVER = True
-                self._IsDraw = True
-
-        if self._IsPrint:
-            print("======================================================")
-            self._print_board()
-
-            if self._IsDraw:
-                print("> DRAW GAME")
-            elif self._turn:
-                print("> Winner : Player B")
-            else:
-                print("> Winner : Player A")
-
-
-    def _set_location_board(self):
-        location_board = np.zeros((3, 3))
-        for h in range(3):
-            for w in range(3):
-                location_board[w, h] = (w + 1) * 10 + (h + 1)
-        return location_board
-
-
-    def _print_board(self):
-        print("> Game board")
-        print(self._board)
-        location_board = np.zeros((3,3))
-        for h in range(3):
-            for w in range(3):
-                location_board[w,h] = (w+1)*10+(h+1)
-        print("> location board")
-        print(location_board)
-
-
-    def _check_update(self,_w,_h):
-        if self._board[_w,_h] == 0 :
-            return True
-        else :
-            return False
-
-
-    def _game_update(self,player,_w,_h):
-        if self._check_update(_w,_h):
-            self._board[_w,_h] = player
-            self._board_count -= 1
-            self._check_winner(player, _w, _h, 0)
+    def __checkBoard__(self,action):
+        if self.Board[action-1] == 0:
             return True
         else:
             return False
 
+    def __changeBoardTurn__(self):
+        for i in range(self.Board.__len__()):
+            self.Board[i] *= -1
 
-    def _check_rule(self,player,_w,_h,_score,_DIR,_DIR_V):
-        if _DIR == self._VERTICAL:
-            _h += _DIR_V
+    def __printBoard__(self):
+        _cnt = 0
+        if self.Turn == self.PlayerA:
+            print("> Player A : O")
+        elif self.Turn == self.PlayerB:
+            print("> Player B : O")
 
-        if _DIR == self._HORIZONTAL:
-            _w += _DIR_V
+        for i in range(self.Board.__len__()):
+            _end = ' '
+            _stone = ''
+            if _cnt == 2:
+                _end = '\n'
+                _cnt = 0
+            else:
+                _cnt += 1
+                _end = ' '
 
-        if _DIR == self._DIAGONAL_DU:
-            _h += _DIR_V
-            _w += _DIR_V
+            if self.Board[i] == 1:_stone = 'O'
+            elif self.Board[i] == -1:_stone = 'X'
+            else:_stone = '-'
 
-        if _DIR == self._DIAGONAL_UD:
-            _h -= _DIR_V
-            _w += _DIR_V
+            print(_stone,end =_end)
 
-        if _w >= 3 or _h >= 3 or _w < 0 or _h < 0 :
-            if self._IsPrint:print(">return out of index! score :" , _score)
-            return _score
+    def __step__(self,action):
+        # Turn Change
+        self.Turn = self.Turn * -1
+        self.__changeBoardTurn__()
 
-        if self._board[_w, _h] == player:
-            if self._IsPrint:print("> Found..(",_w,",",_h,")")
-            _score += 1
-            _score = self._check_rule(player, _w, _h, _score,_DIR ,_DIR_V)
+        # Set on the board
+        if self.__checkBoard__(action):
+            self.Board[action-1] = 1
         else:
-            if self._IsPrint:print("> Not found..(",_w,",",_h,"),player: ",player,",map : " ,self._board[_w,_h])
-            return _score
+            return False
 
-        return _score
+        # Check Winner
+        if self.__checkWinner():
+            self.Winner = self.Turn
+            self.GameOver = True
 
-    def _check_winner(self,player,_w,_h,_score):
-        win_score = 2
-        start_score = 0
+        # print board
+        self.__printBoard__()
 
-        # check vertical
-        score = start_score # start point -> [+1 point]
-        if self._IsPrint:print("> check vertical ")
-        scoreA = self._check_rule(player,_w,_h,score,self._VERTICAL, 1)
-        if self._IsPrint:print("> score : ", score)
-        scoreB = self._check_rule(player,_w,_h,score,self._VERTICAL,-1)
-        score = scoreA + scoreB
-        if self._IsPrint:print("> score : ", score)
-        if score >= win_score :
-            if self._IsPrint:print("Winner : Player " , player)
-            self._GAME_OVER = True
-
-        # check horizontal
-        if self._IsPrint:print("> check horizontal")
-        score = start_score  # start point -> [+1 point]
-        scoreA = self._check_rule( player, _w, _h,score, self._HORIZONTAL,  1)
-        if self._IsPrint:print("> score : ", score)
-        scoreB = self._check_rule( player, _w, _h,score, self._HORIZONTAL, -1)
-        score = scoreA + scoreB
-        if self._IsPrint:print("> score : ", score)
-        if score >= win_score:
-            if self._IsPrint:print("Winner : Player ", player)
-            self._GAME_OVER = True
-
-        # check diagonal up -> down
-        if self._IsPrint:print("> check diagonal up -> down")
-        score = start_score  # start point -> [+1 point]
-        scoreA = self._check_rule( player, _w, _h,score, self._DIAGONAL_UD,  1)
-        if self._IsPrint:print("> score : ", score)
-        scoreB = self._check_rule( player, _w, _h,score, self._DIAGONAL_UD, -1)
-        score = scoreA + scoreB
-        if self._IsPrint:print("> score : ", score)
-        if score >= win_score:
-            if self._IsPrint:print("Winner : Player ", player)
-            self._GAME_OVER = True
-
-        # check diagonal down -> up
-        if self._IsPrint:print("> check diagonal down -> up")
-        score = start_score  # start point -> [+1 point]
-        scoreA = self._check_rule( player, _w, _h,score, self._DIAGONAL_DU,  1)
-        if self._IsPrint:print("> score : ", score)
-        scoreB = self._check_rule( player, _w, _h,score, self._DIAGONAL_DU, -1)
-        score = scoreA + scoreB
-        if self._IsPrint:print("> score : ", score)
-        if score >= win_score:
-            if self._IsPrint:print("Winner : Player ", player)
-            self._GAME_OVER = True
+        return True
 
 
 if __name__ == "__main__":
-    my_game = TicTacToe()
-    my_game._start_game()
-
+    my_game = TicTacToeSingle()
+    while not my_game.GameOver:
+        action = input("1~9: ")
+        action = int(action)
+        my_game.__step__(action)
 
 
