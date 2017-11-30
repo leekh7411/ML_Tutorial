@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24b172d2-fcca-408f-8989-f4bed1eec28f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Five_stones/old_game_model/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Five_stones/old_game_model/game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Five_stones/testboard.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyTorch/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyTorch/exercise01_1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials" afterPath="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Five_stones/agent.py" afterPath="$PROJECT_DIR$/Five_stones/agent.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Five_stones/game.py" afterPath="$PROJECT_DIR$/Five_stones/game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Five_stones/model.py" afterPath="$PROJECT_DIR$/Five_stones/model.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,42 +19,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="agent.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Five_stones/agent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Five_stones/game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Five_stones/old_game_model/game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="301" column="34" lean-forward="false" selection-start-line="301" selection-start-column="34" selection-end-line="301" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5093633">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="agent.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Five_stones/agent.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="18">
+                  <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lotto/model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Five_stones/game.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="581">
+                  <caret line="130" column="9" lean-forward="false" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,11 +127,11 @@
         <option value="$PROJECT_DIR$/Five-Stones/model.py" />
         <option value="$PROJECT_DIR$/Five-Stones/agent.py" />
         <option value="$PROJECT_DIR$/Five-stones/agent.py" />
-        <option value="$PROJECT_DIR$/Five_stones/model.py" />
         <option value="$PROJECT_DIR$/GYM/06_CartPole_DQN_2015.py" />
         <option value="$PROJECT_DIR$/Five_stones/testboard.py" />
         <option value="$PROJECT_DIR$/PyTorch/exercise01_1.py" />
         <option value="$PROJECT_DIR$/Five_stones/old_game_model/game.py" />
+        <option value="$PROJECT_DIR$/Five_stones/model.py" />
         <option value="$PROJECT_DIR$/Five_stones/game.py" />
         <option value="$PROJECT_DIR$/Five_stones/agent.py" />
       </list>
@@ -157,8 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,8 +176,7 @@
             <path>
               <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-              <item name="Five_stones" type="462c0819:PsiDirectoryNode" />
-              <item name="old_game_model" type="462c0819:PsiDirectoryNode" />
+              <item name="Lotto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
@@ -186,6 +187,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.game">
+  <component name="RunManager" selected="Python.agent (1)">
     <configuration name="01 - Saver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,8 +313,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.game" />
-        <item index="1" class="java.lang.String" itemvalue="Python.agent (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.agent (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.game" />
         <item index="2" class="java.lang.String" itemvalue="Python.exercise01_1" />
         <item index="3" class="java.lang.String" itemvalue="Python.01 - Saver" />
         <item index="4" class="java.lang.String" itemvalue="Python.testboard" />
@@ -347,13 +350,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1853" height="867" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1800539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1437061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78486055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -611,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lotto/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/12 - DQN/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -655,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4248">
           <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="75" column="66" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="75" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,32 +699,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
           <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Five_stones/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Five_stones/old_game_model/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
+        <state relative-caret-position="5418">
           <caret line="301" column="34" lean-forward="false" selection-start-line="301" selection-start-column="34" selection-end-line="301" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lotto/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Five_stones/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Five_stones/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="581">
+          <caret line="130" column="9" lean-forward="false" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -743,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Five_stones/agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="18">
+          <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

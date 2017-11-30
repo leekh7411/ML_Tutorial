@@ -19,6 +19,17 @@ class TicTacToeSingle:
         self.Winner = 0
         self.GameOver = False
         self.Board = np.zeros(9)
+        return self.Board
+
+    def __checkDraw(self):
+        checkDraw = 0
+        for i in range(self.Board.__len__()):
+            if self.Board[i] != 0: checkDraw += 1
+        if checkDraw == 9:
+            #print("-----------Draw------------")
+            return True
+        return False
+
     def __checkWinner(self):
         for i in range(self.WinCase.__len__()):
             count = 0
@@ -26,10 +37,10 @@ class TicTacToeSingle:
                 if self.Board[self.WinCase[i][j]] == 1:
                     count += 1
             if count == 3 :
-                if self.Turn == self.PlayerA:
-                    print("--------- PlayerA Win! ---------")
-                elif self.Turn == self.PlayerB:
-                    print("--------- PlayerB Win! ---------")
+                #if self.Turn == self.PlayerA:
+                    #print("--------- PlayerA Win! ---------")
+                #elif self.Turn == self.PlayerB:
+                    #print("--------- PlayerB Win! ---------")
                 return True
 
         return False
@@ -43,6 +54,27 @@ class TicTacToeSingle:
     def __changeBoardTurn__(self):
         for i in range(self.Board.__len__()):
             self.Board[i] *= -1
+
+    def __printParmBoard__(self,board,str):
+        print("-------------------------------------------------------")
+        print("Board > " , str)
+        _cnt = 0
+        for i in range(board.__len__()):
+            _end = ' '
+            _stone = ''
+            if _cnt == 2:
+                _end = '\n'
+                _cnt = 0
+            else:
+                _cnt += 1
+                _end = ' '
+
+            if board[i] == 1:_stone = 'O'
+            elif board[i] == -1:_stone = 'X'
+            else:_stone = '-'
+
+            print(_stone,end =_end)
+        print("-------------------------------------------------------")
 
     def __printBoard__(self):
         _cnt = 0
@@ -67,6 +99,11 @@ class TicTacToeSingle:
 
             print(_stone,end =_end)
 
+    def __getReverse__(self,board):
+        for i in range(board.__len__()):
+            board[i] *= -1
+        return board
+
     def __step__(self,action):
         # Turn Change
         self.Turn = self.Turn * -1
@@ -76,6 +113,8 @@ class TicTacToeSingle:
         if self.__checkBoard__(action):
             self.Board[action-1] = 1
         else:
+            #print("something was wrong! do it again~")
+            self.Turn = self.Turn * -1
             return False
 
         # Check Winner
@@ -83,8 +122,13 @@ class TicTacToeSingle:
             self.Winner = self.Turn
             self.GameOver = True
 
+        # Check Draw
+        if self.__checkDraw():
+            self.Winner = self.Draw
+            self.GameOver = True
+
         # print board
-        self.__printBoard__()
+        #self.__printBoard__()
 
         return True
 
