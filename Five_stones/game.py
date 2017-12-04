@@ -128,7 +128,7 @@ class TicTacToeSingle:
             self.GameOver = True
 
         # print board
-        #self.__printBoard__()
+        self.__printBoard__()
 
         return True
 

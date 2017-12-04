@@ -180,6 +180,6 @@ def main():
 
 
 if __name__ == "__main__" :
-    main()
-    #play_with_bot()
+    #main()
+    play_with_bot()
 
