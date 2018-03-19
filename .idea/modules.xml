@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Algorithm/.idea/Algorithm.iml" filepath="$PROJECT_DIR$/../Algorithm/.idea/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Keras_and_Flask/.idea/Keras_and_Flask.iml" filepath="$PROJECT_DIR$/../Keras_and_Flask/.idea/Keras_and_Flask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MachineLearning/.idea/MachineLearning.iml" filepath="$PROJECT_DIR$/../MachineLearning/.idea/MachineLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TICTACTOE_AI/.idea/TICTACTOE_AI.iml" filepath="$PROJECT_DIR$/../TICTACTOE_AI/.idea/TICTACTOE_AI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../alpha_zero_othello/.idea/alpha_zero_othello.iml" filepath="$PROJECT_DIR$/../alpha_zero_othello/.idea/alpha_zero_othello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../csv_utils/.idea/csv_utils.iml" filepath="$PROJECT_DIR$/../csv_utils/.idea/csv_utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ml3_5.iml" filepath="$PROJECT_DIR$/.idea/ml3_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../reinforcement-learning-kr/.idea/reinforcement-learning-kr.iml" filepath="$PROJECT_DIR$/../reinforcement-learning-kr/.idea/reinforcement-learning-kr.iml" />
     </modules>
   </component>
 </project>

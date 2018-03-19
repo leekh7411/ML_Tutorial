@@ -15,7 +15,7 @@ class Model(torch.nn.Module):
         y_pred = F.sigmoid(self.linear(x))
         return y_pred
 
-# step 1, model!
+# step 1, network!
 model = Model()
 
 # step 2

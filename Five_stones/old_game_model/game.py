@@ -111,9 +111,9 @@ class TicTacToe:
         if done :
             if self._IsDraw:
                 reward = 0
-            elif not self._turn: # End game at turn B --> A win
+            elif not self._turn: # End rules at turn B --> A win
                 reward = self._A
-            else: # End game at turn A --> B win
+            else: # End rules at turn A --> B win
                 reward = self._B
 
         #self._print_board()

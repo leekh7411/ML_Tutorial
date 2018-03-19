@@ -59,7 +59,7 @@ def play_with_bot():
 
         # Init Saver
         saver = tf.train.Saver(tf.global_variables())
-        ckpt = tf.train.get_checkpoint_state('./model')
+        ckpt = tf.train.get_checkpoint_state('./network')
         if ckpt and tf.train.checkpoint_exists(ckpt.model_checkpoint_path):
             saver.restore(sess, ckpt.model_checkpoint_path)
         else:
@@ -113,7 +113,7 @@ def main():
 
         # Init Saver
         saver = tf.train.Saver(tf.global_variables())
-        ckpt = tf.train.get_checkpoint_state('./model')
+        ckpt = tf.train.get_checkpoint_state('./network')
         if ckpt and tf.train.checkpoint_exists(ckpt.model_checkpoint_path):
             saver.restore(sess, ckpt.model_checkpoint_path)
         else:
@@ -175,7 +175,7 @@ def main():
                 print("Loss: ", loss)
 
         # 최적화가 끝난 뒤, 변수를 저장합니다.
-        saver.save(sess, './model/dqn.ckpt')
+        saver.save(sess, './network/dqn.ckpt')
 
 
 

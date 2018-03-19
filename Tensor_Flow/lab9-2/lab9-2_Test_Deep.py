@@ -88,7 +88,7 @@ with tf.Session() as sess:
             writer.add_summary(summary,step)
             print(step, sess.run(cost,feed_dict={X:x_data, Y:y_data}))
 
-    #Test model
+    #Test network
     correct_prediction = tf.equal(tf.floor(hypothesis+0.5),Y)
 
     #Calculate accuracy

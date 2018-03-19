@@ -198,5 +198,5 @@ for cropped_width in range(50, 1000, 20):
                             font, fontScale=0.5, color=(0, 255, 0), thickness=2)
 
 cv2.imwrite("pro-img/digitized_image.png", color_complete)
-saver.save(sess, checkpoint_dir + 'model.ckpt')
+saver.save(sess, checkpoint_dir + 'network.ckpt')
 print ('finish the test')

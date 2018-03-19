@@ -68,13 +68,13 @@ with tf.Session() as sess:
 
     print ("Optimization Finished!")
 
-    # Test model
+    # Test network
     correct_prediction = tf.equal(tf.argmax(activation, 1), tf.argmax(y, 1))
     # Calculate accuracy
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
     print ("Accuracy:", accuracy.eval({x: mnist.test.images, y: mnist.test.labels}))
 
-    saver.save(sess, checkpoint_dir + 'model.ckpt')
+    saver.save(sess, checkpoint_dir + 'network.ckpt')
 
 
 

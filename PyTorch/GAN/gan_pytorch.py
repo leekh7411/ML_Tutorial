@@ -44,7 +44,7 @@ def get_distribution_sampler(mu, sigma):
 def get_generator_input_sampler():
     return lambda m, n: torch.rand(m, n)  # Uniform-dist data into generator, _NOT_ Gaussian
 
-# ##### MODELS: Generator model and discriminator model
+# ##### MODELS: Generator network and discriminator network
 
 class Generator(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):

@@ -4,6 +4,13 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.5.2 (/usr/bin/python3.5)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="alpha_zero_othello" />
+    <orderEntry type="module" module-name="csv_utils" />
+    <orderEntry type="module" module-name="Algorithm" />
+    <orderEntry type="module" module-name="reinforcement-learning-kr" />
+    <orderEntry type="module" module-name="TICTACTOE_AI" />
+    <orderEntry type="module" module-name="MachineLearning" />
+    <orderEntry type="module" module-name="Keras_and_Flask" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

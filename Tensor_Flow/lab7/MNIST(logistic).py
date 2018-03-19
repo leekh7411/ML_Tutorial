@@ -40,7 +40,7 @@ with tf.Session() as session:
 
     print ("Optimization Finished!")
 
-    # Test model
+    # Test network
     correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(Y, 1))
     # Calculate accuracy
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))

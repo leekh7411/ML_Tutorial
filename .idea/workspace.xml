@@ -2,12 +2,74 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/GYM/03_Q_Network.py" line="48" />
+    <bookmark url="file://$PROJECT_DIR$/../alpha_zero_othello/worker/evaluate.py" line="39" />
+    <bookmark url="file://$PROJECT_DIR$/../GridSimulator/network/network.py" line="68" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b172d2-fcca-408f-8989-f4bed1eec28f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials" afterPath="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StarGAN" afterPath="$PROJECT_DIR$/StarGAN" />
+    <list default="true" id="24b172d2-fcca-408f-8989-f4bed1eec28f" name="Default" comment="In game code TicTacToe class function&#10;get_MonteCarloReward() is removed and changed name get_reward().&#10;This method return only final state reward.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GridSimulator/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GridSimulator/network/replaybuffer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GridSimulator/rules/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TICTACTOE_AI/ver_ActorCritic/agent.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TICTACTOE_AI/ver_ActorCritic/train.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/policy_iteration/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/test.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../GridSimulator/game/__init__.py" afterPath="$PROJECT_DIR$/../GridSimulator/network/network.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../GridSimulator/main/__init__.py" afterPath="$PROJECT_DIR$/../GridSimulator/network/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../GridSimulator/model/__init__.py" afterPath="$PROJECT_DIR$/../GridSimulator/config.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/1-policy-iteration/environment.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/policy_iteration/environment.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/1-policy-iteration/policy_iteration.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/policy_iteration/policy_iteration.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/2-value-iteration/environment.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/2-value-iteration/environment.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/2-value-iteration/value_iteration.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/2-value-iteration/value_iteration.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/3-monte-carlo/environment.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/3-monte-carlo/environment.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/3-monte-carlo/mc_agent.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/3-monte-carlo/mc_agent.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/4-sarsa/.python-version" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/5-q-learning/.python-version" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/4-sarsa/environment.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/4-sarsa/environment.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/4-sarsa/sarsa_agent.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/4-sarsa/sarsa_agent.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/5-q-learning/.python-version" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/4-sarsa/.python-version" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/5-q-learning/environment.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/5-q-learning/environment.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/5-q-learning/q_learning_agent.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/5-q-learning/q_learning_agent.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/6-deep-sarsa/deep_sarsa_agent.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/6-deep-sarsa/deep_sarsa_agent.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/6-deep-sarsa/environment.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/6-deep-sarsa/environment.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/6-deep-sarsa/save_graph/deep_sarsa_trained.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/6-deep-sarsa/save_graph/deep_sarsa_trained.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/6-deep-sarsa/save_model/deep_sarsa_trained.h5" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/6-deep-sarsa/save_model/deep_sarsa_trained.h5" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/7-reinforce/environment.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/7-reinforce/environment.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/7-reinforce/reinforce_agent.py" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/7-reinforce/reinforce_agent.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/7-reinforce/save_graph/reinforce_trained.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/7-reinforce/save_graph/reinforce_trained.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/7-reinforce/save_model/reinforce_trained.h5" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/7-reinforce/save_model/reinforce_trained.h5" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/README.md" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/gridworld.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/gridworld.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/img/circle.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/img/circle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/img/down.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/img/down.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/img/left.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/img/left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/img/rectangle.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/img/rectangle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/img/right.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/img/right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/img/triangle.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/img/triangle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/img/up.png" afterPath="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/img/up.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GridSimulator/.idea/GridSimulator.iml" afterPath="$PROJECT_DIR$/../GridSimulator/.idea/GridSimulator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GridSimulator/grid/loader.py" afterPath="$PROJECT_DIR$/../GridSimulator/grid/loader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ml3_5.iml" afterPath="$PROJECT_DIR$/.idea/ml3_5.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Five_stones/agent.py" afterPath="$PROJECT_DIR$/Five_stones/agent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Five_stones/old_game_model/game.py" afterPath="$PROJECT_DIR$/Five_stones/old_game_model/game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lotto/agent.py" afterPath="$PROJECT_DIR$/Lotto/agent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyTorch/GAN/gan_pytorch.py" afterPath="$PROJECT_DIR$/PyTorch/GAN/gan_pytorch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyTorch/exercise05_1.py" afterPath="$PROJECT_DIR$/PyTorch/exercise05_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyTorch/exercise06_1.py" afterPath="$PROJECT_DIR$/PyTorch/exercise06_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tensor_Flow/lab7/MNIST(NN).py" afterPath="$PROJECT_DIR$/Tensor_Flow/lab7/MNIST(NN).py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tensor_Flow/lab7/MNIST(logistic).py" afterPath="$PROJECT_DIR$/Tensor_Flow/lab7/MNIST(logistic).py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tensor_Flow/lab7/test.py" afterPath="$PROJECT_DIR$/Tensor_Flow/lab7/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_1.py" afterPath="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_2_wide.py" afterPath="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_2_wide.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_3_Deep.py" afterPath="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_3_Deep.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tensor_Flow/lab9-2/lab9-2_Test_Deep.py" afterPath="$PROJECT_DIR$/Tensor_Flow/lab9-2/lab9-2_Test_Deep.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../alpha_zero_othello/player/aiplayer.py" afterPath="$PROJECT_DIR$/../alpha_zero_othello/player/aiplayer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../alpha_zero_othello/worker/optimizer.py" afterPath="$PROJECT_DIR$/../alpha_zero_othello/worker/optimizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../alpha_zero_othello/worker/self_play.py" afterPath="$PROJECT_DIR$/../alpha_zero_othello/worker/self_play.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,21 +78,78 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ML_Tutorial" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data_loader.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StarGAN/data_loader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.49968174">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="254">
+                  <caret line="55" column="0" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="55" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="agent.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_ActorCritic/agent.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="349">
+                  <caret line="98" column="26" lean-forward="false" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_ActorCritic/train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="cartpole_a2c.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../reinforcement-learning-kr/2-cartpole/2-actor-critic/cartpole_a2c.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="361">
+                  <caret line="133" column="34" lean-forward="false" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="agent.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/agent.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,72 +164,77 @@
       <find>_keep_prob</find>
       <find>_get_location</find>
       <find>_check_update_action</find>
+      <find>PROCESSJOB_ID</find>
+      <find>input_file_list</find>
+      <find>load</find>
+      <find>pick_move</find>
+      <find>csv_readers</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../TICTACTOE_AI" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GYM/main.py" />
-        <option value="$PROJECT_DIR$/GYM/02_dummy_Q_Learning.py" />
-        <option value="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/03 - TensorFlow Basic/02 - Variable.py" />
-        <option value="$PROJECT_DIR$/GYM/DQN.py" />
-        <option value="$PROJECT_DIR$/GYM/dqn.py" />
-        <option value="$PROJECT_DIR$/GYM/05_CartPole_DQN.py" />
-        <option value="$PROJECT_DIR$/GYM/03_Q_Network.py" />
-        <option value="$PROJECT_DIR$/GYM/04_CartPole.py" />
-        <option value="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/12 - DQN/agent.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab1/placeHolder.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab1/test.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab2/lab2_linearRegression.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab3/lab3_1.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab3/lab3_cost_minimize.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab4/lab4-1_multivarialble_regression_matrix.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab4/lab4-2_multivarialble_regression_without_b.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab4/lab4-3_multivarialble_regression_train_file.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab4/lab4_multivarialble_regression.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab5/lab5_logistic_classific.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab6/lab6_softmax.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab7/input_data.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab7/lab7_test.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab7/MNIST(logistic).py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab7/MNIST(NN).py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_1.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_2_wide.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab9-1/lab9_3_Deep.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab9-2/lab9-2_Test_Deep.py" />
-        <option value="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/07 - CNN/01 - CNN.py" />
-        <option value="$PROJECT_DIR$/Lotto/lotto_datas.py" />
-        <option value="$PROJECT_DIR$/Lotto/model.py" />
-        <option value="$PROJECT_DIR$/Lotto/agent.py" />
-        <option value="$PROJECT_DIR$/Tensor_Flow/lab7/test.py" />
-        <option value="$PROJECT_DIR$/Five-Stones/game.py" />
-        <option value="$PROJECT_DIR$/Five-Stones/model.py" />
-        <option value="$PROJECT_DIR$/Five-Stones/agent.py" />
-        <option value="$PROJECT_DIR$/Five-stones/agent.py" />
-        <option value="$PROJECT_DIR$/GYM/06_CartPole_DQN_2015.py" />
-        <option value="$PROJECT_DIR$/Five_stones/testboard.py" />
-        <option value="$PROJECT_DIR$/PyTorch/exercise01_1.py" />
-        <option value="$PROJECT_DIR$/Five_stones/old_game_model/game.py" />
-        <option value="$PROJECT_DIR$/Five_stones/model.py" />
-        <option value="$PROJECT_DIR$/PyTorch/excersice02-1.py" />
-        <option value="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/11 - Inception/predict.py" />
-        <option value="$PROJECT_DIR$/Five_stones/agent.py" />
-        <option value="$PROJECT_DIR$/Five_stones/game.py" />
-        <option value="$PROJECT_DIR$/PyTorch/excercise4.py" />
-        <option value="$PROJECT_DIR$/StarGAN/main.py" />
-        <option value="$PROJECT_DIR$/StarGAN/solver.py" />
-        <option value="$PROJECT_DIR$/Copy_StarGAN/README.md" />
-        <option value="$PROJECT_DIR$/Copy_StarGAN/data_loader.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/test.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/eee" />
+        <option value="$PROJECT_DIR$/../csv_utils/utils.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/CsvRW.py" />
+        <option value="$PROJECT_DIR$/../alpha_zero_othello/worker/optimizer.py" />
+        <option value="$PROJECT_DIR$/../alpha_zero_othello/othello.py" />
+        <option value="$PROJECT_DIR$/../alpha_zero_othello/player/aiplayer.py" />
+        <option value="$PROJECT_DIR$/../alpha_zero_othello/worker/self_play.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/Merge.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/run.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/config.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/test2.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/tests/test3.py" />
+        <option value="$PROJECT_DIR$/../csv_utils/Utils.py" />
+        <option value="$PROJECT_DIR$/../GridSimulator/grid/loader.py" />
+        <option value="$PROJECT_DIR$/../GridSimulator/model/replaybuffer.py" />
+        <option value="$PROJECT_DIR$/../GridSimulator/model/network.py" />
+        <option value="$PROJECT_DIR$/../GridSimulator/config.py" />
+        <option value="$PROJECT_DIR$/../GridSimulator/network/network.py" />
+        <option value="$PROJECT_DIR$/../Algorithm/jump_game.py" />
+        <option value="$PROJECT_DIR$/reinforcement-learning-kr/1-grid-world/1-policy-iteration/policy_iteration.py" />
+        <option value="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/1-policy-iteration/__init__.py" />
+        <option value="$PROJECT_DIR$/../reinforcement-learning-kr/1-grid-world/1-policy-iteration/policy_iteration.py" />
+        <option value="$PROJECT_DIR$/../reinforcement-learning-kr/1_grid_world/1_policy_iteration/policy_iteration.py" />
+        <option value="$PROJECT_DIR$/../reinforcement-learning-kr/grid_world/policy_iteration/policy_iteration.py" />
+        <option value="$PROJECT_DIR$/../Algorithm/input" />
+        <option value="$PROJECT_DIR$/../Algorithm/semi_plan.py" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/DQN_version/main.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/DQN_version/test.py" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/DQN_version/play.py" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/DQN_version/README.md" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/DQN_version/TicTacToe.py" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/DQN_version/train.py" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/DQN_version/agent.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/XOR/xor_train.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/Iris_Predict/iris_train.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/Iris_Predict/iris_pandas2.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/Iris_Predict/iris_train2.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/MNIST/mnist_download.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/SVM/bmi.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/SVM/bmi_train.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/RandomForest/mushroom_download.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/TextAnalysis/StephenHawking.txt" />
+        <option value="$PROJECT_DIR$/../MachineLearning/RandomForest/mushroom_train.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/CrossValidation/mushroom_cross_validation.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/GreedSearch/mushroom_parm_search_best_greedy.py" />
+        <option value="$PROJECT_DIR$/../MachineLearning/GreedSearch/mushroom_greed_search_params.py" />
+        <option value="$PROJECT_DIR$/../Keras_and_Flask/run_keras_server.py" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/ver_ActorCritic/train.py" />
+        <option value="$PROJECT_DIR$/../TICTACTOE_AI/ver_ActorCritic/agent.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
     <option name="y" value="24" />
-    <option name="width" value="928" />
+    <option name="width" value="1859" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -132,34 +256,111 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="ml3_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml3_5" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reinforcement-learning-kr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reinforcement-learning-kr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-cartpole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reinforcement-learning-kr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-cartpole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-actor-critic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TICTACTOE_AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TICTACTOE_AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ver_DQN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TICTACTOE_AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ver_ActorCritic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FC-DenseNet" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reinforcement-learning-kr" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../TICTACTOE_AI" />
+      <recent name="$PROJECT_DIR$/../csv_utils/tests" />
+      <recent name="$PROJECT_DIR$/../csv_utils" />
+      <recent name="$PROJECT_DIR$/../csv_utils/csv_io_utils" />
       <recent name="$PROJECT_DIR$/Five-stones" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Copy_StarGAN" />
-      <recent name="$PROJECT_DIR$/Five_stones/TicTacToAI/model" />
-      <recent name="$PROJECT_DIR$/Five_stones" />
-      <recent name="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/08 - Autoencoder" />
-      <recent name="$PROJECT_DIR$/Golbin/my_practice" />
+      <recent name="$PROJECT_DIR$/../MachineLearning/GreedSearch" />
+      <recent name="$PROJECT_DIR$/../MachineLearning/CrossValidation" />
+      <recent name="$PROJECT_DIR$/../MachineLearning/TextAnalysis" />
+      <recent name="$PROJECT_DIR$/../TICTACTOE_AI/DQN_version" />
+      <recent name="$PROJECT_DIR$/../csv_utils/target" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,106 +375,240 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.excercise4">
-    <configuration name="01 - Saver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mushroom_greed_search_params">
+    <configuration default="false" name="bmi_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/05 - TensorBoard, Saver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MachineLearning/SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ml3_5" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/05 - TensorBoard, Saver/01 - Saver.py" />
+      <module name="MachineLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MachineLearning/SVM/bmi_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="agent (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mushroom_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Five_stones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MachineLearning/RandomForest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ml3_5" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Five_stones/agent.py" />
+      <module name="MachineLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MachineLearning/RandomForest/mushroom_download.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="excercise4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mushroom_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTorch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MachineLearning/RandomForest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ml3_5" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyTorch/excercise4.py" />
+      <module name="MachineLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MachineLearning/RandomForest/mushroom_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="exercise01_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mushroom_cross_validation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTorch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MachineLearning/CrossValidation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ml3_5" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyTorch/exercise01_1.py" />
+      <module name="MachineLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MachineLearning/CrossValidation/mushroom_cross_validation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
-    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mushroom_greed_search_params" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Five_stones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MachineLearning/GreedSearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ml3_5" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Five_stones/game.py" />
+      <module name="MachineLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MachineLearning/GreedSearch/mushroom_greed_search_params.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ml3_5" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ml3_5" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ml3_5" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ml3_5" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ml3_5" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ml3_5" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.agent (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.01 - Saver" />
-      <item index="2" class="java.lang.String" itemvalue="Python.exercise01_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.game" />
-      <item index="4" class="java.lang.String" itemvalue="Python.excercise4" />
+      <item index="0" class="java.lang.String" itemvalue="Python.bmi_train" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mushroom_download" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mushroom_train" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mushroom_cross_validation" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mushroom_greed_search_params" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.excercise4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.agent (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.game" />
-        <item index="3" class="java.lang.String" itemvalue="Python.exercise01_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.01 - Saver" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mushroom_greed_search_params" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mushroom_cross_validation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mushroom_train" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mushroom_download" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bmi_train" />
       </list>
     </recent_temporary>
   </component>
@@ -302,51 +637,48 @@
       <option name="project" value="LOCAL" />
       <updated>1510246598387</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="In game code TicTacToe class function&#10;get_MonteCarloReward() is removed and changed name get_reward().&#10;This method return only final state reward.">
+      <created>1521040585292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521040585292</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1857" height="1092" extended-state="6" />
+    <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14339623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21063395" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15492201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29663607" sideWeight="0.5040344" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3088685" sideWeight="0.49596557" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23824131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15148248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -357,342 +689,439 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FS :: update simple DQN model and agent" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="In game code TicTacToe class function&#10;get_MonteCarloReward() is removed and changed name get_reward().&#10;This method return only final state reward." />
+    <option name="LAST_COMMIT_MESSAGE" value="In game code TicTacToe class function&#10;get_MonteCarloReward() is removed and changed name get_reward().&#10;This method return only final state reward." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tensor_Flow/lab9-2/ps">
+    <entry file="file://$PROJECT_DIR$/../Algorithm/input">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tensor_Flow/lab9-2/train.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lotto/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/10 - RNN/03 - Seq2Seq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/07 - CNN/01 - CNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/10 - RNN/01 - MNIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lotto/lotto_datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/08 - Autoencoder/01 - Autoencoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tensor_Flow/lab7/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/09 - GAN/01 - GAN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lotto/lotto_data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/12 - DQN/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
-          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/12 - DQN/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Five-stones/game.py" />
-    <entry file="file://$PROJECT_DIR$/Five-stones/model.py" />
-    <entry file="file://$PROJECT_DIR$/Five-stones/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Five-Stones/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Five-stones/agent.py" />
-    <entry file="file://$PROJECT_DIR$/GYM/dqn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/util/nest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="1062" column="0" lean-forward="false" selection-start-line="1062" selection-start-column="0" selection-end-line="1062" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/numpy/core/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4248">
-          <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Five_stones/testboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/05 - TensorBoard, Saver/01 - Saver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/tensor_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="463" column="0" lean-forward="false" selection-start-line="463" selection-start-column="0" selection-end-line="463" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lotto/agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/05 - TensorBoard, Saver/02 - TensorBoard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="75" column="66" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="75" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GYM/06_CartPole_DQN_2015.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Five_stones/old_game_model/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5418">
-          <caret line="301" column="34" lean-forward="false" selection-start-line="301" selection-start-column="34" selection-end-line="301" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lotto/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Five_stones/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyTorch/excersice02-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyTorch/exercise01_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/11 - Inception/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Golbin/original_code/TensorFlow-Tutorials/11 - Inception/retrain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10825">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Five_stones/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="130" column="8" lean-forward="false" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Five_stones/TicTacToAI/model/checkpoint">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Five_stones/agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="183" column="4" lean-forward="false" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyTorch/excercise4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarGAN/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarGAN/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarGAN/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Copy_StarGAN/png/RaFD.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarGAN/download.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarGAN/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Copy_StarGAN/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarGAN/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarGAN/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Copy_StarGAN/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="118" lean-forward="false" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StarGAN/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Copy_StarGAN/data_loader.py">
+    <entry file="file://$PROJECT_DIR$/Five_stones/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="596">
+          <caret line="127" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/keras/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/keras/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/keras/utils/conv_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/h5py/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/imp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="344" column="23" lean-forward="true" selection-start-line="344" selection-start-column="23" selection-end-line="344" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/TicTacToe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alpha_zero_othello/othello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2209">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alpha_zero_othello/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alpha_zero_othello/player/aiplayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/keras/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="1005" column="0" lean-forward="false" selection-start-line="1005" selection-start-column="0" selection-end-line="1005" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../reinforcement-learning-kr/2-cartpole/1-dqn/cartpole_dqn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" column="75" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="711" column="0" lean-forward="false" selection-start-line="711" selection-start-column="0" selection-end-line="711" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/save_graph/tictactoe_dqn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/TicTacToe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2679">
+          <caret line="141" column="31" lean-forward="false" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/save_graph/tictactoe_dqnB.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/save_graph/tictactoe_dqnA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyTorch/exercise07_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/XOR/xor_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/Iris_Predict/iris_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/Iris_Predict/iris.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GYM/06_CartPole_DQN_2015.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#23#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/MNIST/mnist_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/SVM/bmi.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="139" column="13" lean-forward="true" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/RandomForest/mushroom_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/SVM/bmi_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="55" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/TextAnalysis/StephenHawking.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/RandomForest/mushroom.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="401" column="0" lean-forward="false" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/CrossValidation/mushroom.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/RandomForest/mushroom_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/GreedSearch/mushroom.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/CrossValidation/mushroom_cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="41" column="33" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="41" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Keras_and_Flask/run_keras_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="59" lean-forward="true" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="e#32#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/Iris_Predict/iris_train2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MachineLearning/GreedSearch/mushroom_greed_search_params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../reinforcement-learning-kr/2-cartpole/2-actor-critic/cartpole_a2c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="133" column="34" lean-forward="false" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_ActorCritic/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_ActorCritic/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="98" column="26" lean-forward="false" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TICTACTOE_AI/ver_DQN/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>

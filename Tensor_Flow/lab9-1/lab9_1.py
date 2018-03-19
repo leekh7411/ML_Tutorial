@@ -44,7 +44,7 @@ with tf.Session() as sess:
         if step % 20 == 0:
             print(step, sess.run(cost,feed_dict={X:x_data, Y:y_data}))
 
-    #Test model
+    #Test network
     correct_prediction = tf.equal(tf.floor(hypothesis+0.5),Y)
 
     #Calculate accuracy

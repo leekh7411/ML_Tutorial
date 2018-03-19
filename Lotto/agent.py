@@ -18,7 +18,7 @@ def main():
     '''
     # CNN Prediction Part
     with tf.Session() as sess:
-        mainCNN = model.CNN(sess,input_size=7,output_size=45,name="mainCNN")
+        mainCNN = network.CNN(sess,input_size=7,output_size=45,name="mainCNN")
 
         tf.global_variables_initializer().run()
         

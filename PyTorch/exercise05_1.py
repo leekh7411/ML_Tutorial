@@ -18,7 +18,7 @@ class Model(torch.nn.Module):
         y_pred = self.linear(x)
         return y_pred
 
-# This is our model
+# This is our network
 model = Model()
 
 
